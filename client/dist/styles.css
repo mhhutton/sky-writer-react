@@ -1,0 +1,11 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid orange;
+}
+.title-text {
+  font-weight: bold;
+  color: blue;
+}

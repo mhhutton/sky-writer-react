@@ -1,0 +1,7 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#The .env file may store any necassary keys, tokens, passwords, or information/data that one may not want available to the public.
+.env
+
+# dependencies
+/node_modules
