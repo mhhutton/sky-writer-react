@@ -1,10 +1,15 @@
 import React from 'react';
 
+import BottomButtonsContainer from './BottomButtonsContainer.jsx'
+import TitleBar from './TitleBar.jsx'
+import FlyZone from './FlyZone.jsx'
+
 function App() {
   return (
-    <div className="App">
-      <div className="title-text">This is your Application!</div>
-      <img src="assets/react-logo.png" alt="React Logo" />
+    <div className="app">
+      <TitleBar />
+      <FlyZone />
+      <BottomButtonsContainer />
     </div>
   );
 }

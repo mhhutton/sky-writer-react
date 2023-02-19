@@ -1,11 +1,23 @@
-#app {
+body{
+  background-color: aqua;
+
+}
+.app {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 10px solid orange;
+  border: 5px solid orange;
+
 }
-.title-text {
+.title-bar {
   font-weight: bold;
   color: blue;
+  border:5px solid blue;
+}
+.fly-zone {
+  border: 5px solid red;
+}
+.bott-butt-cont {
+  border: 5px solid green;
 }
