@@ -1,9 +1,10 @@
 import React from 'react';
 
-function FlyZone() {
+function FlyZone( {msgContainer} ) {
   return (
     <div className="fly-zone">
-      <div> Fly Zone!</div>
+      <div id="plane-and-banner"> Fly Zone!</div>
+      <div>{msgContainer}</div>
     </div>
   );
 }

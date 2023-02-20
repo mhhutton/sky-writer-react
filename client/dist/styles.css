@@ -18,6 +18,30 @@ body{
 .fly-zone {
   border: 5px solid red;
 }
+#plane-and-banner {
+  border: 5px solid black;
+}
 .bott-butt-cont {
   border: 5px solid green;
+}
+.modal-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid green;
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid orange;
+}
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid royalblue;
 }

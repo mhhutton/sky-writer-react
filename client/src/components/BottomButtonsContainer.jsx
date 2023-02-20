@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
-function BottomButtonsContainer() {
+import MsgModal from './MsgModal.jsx';
+
+function BottomButtonsContainer( {msgContainer, setMsgContainer} ) {
+
   return (
     <div className="bott-butt-cont">
-      <div className="title-text">
-        <Button>Create New Message</Button>
-        <Button> Fly Message</Button>
-      </div>
+      <MsgModal
+        msgContainer={msgContainer}
+        setMsgContainer={setMsgContainer}
+      />
+      <Button> Fly Message</Button>
     </div>
   );
 }
