@@ -29,6 +29,8 @@ function MsgModal({msgContainer, setMsgContainer}) {
         <Modal.Body className='modal-body'>
           <Form.Label >Type Message Below</Form.Label>
           <Form.Control
+            placeholder="Enter New Message"
+            maxLength='100'
             onChange={(event) => {
               setModalMsg(event.target.value)
               setModalMsgCharCount(event.target.value.length)

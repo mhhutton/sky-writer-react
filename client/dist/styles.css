@@ -13,13 +13,31 @@ body{
 .title-bar {
   font-weight: bold;
   color: blue;
+  width: 100%;
   border:5px solid blue;
 }
 .fly-zone {
+  width: 100%;
   border: 5px solid red;
 }
 #plane-and-banner {
-  border: 5px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 5px solid purple;
+}
+#plane-img {
+  height: 30vh;
+  border: 5px solid teal;
+}
+#msg-cont {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  background-color: white;
+  border: 3px solid black;
 }
 .bott-butt-cont {
   border: 5px solid green;
@@ -29,6 +47,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
   border: 5px solid green;
 }
 .modal-body {
