@@ -10,7 +10,7 @@ This project uses:\
 
 In the project directory, you can run the following command in terminal:
 
-### `npm build`
+### `npm run build`
 ### `npm start`
 
 This will Run the app in the development mode.\

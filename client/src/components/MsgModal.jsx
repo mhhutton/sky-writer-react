@@ -27,8 +27,8 @@ function MsgModal({msgContainer, setMsgContainer}) {
 
       <Modal className='modal-window' show={show} onHide={handleClose}>
         <Modal.Body className='modal-body'>
-          <Form.Label >Type Message Below</Form.Label>
           <Form.Control
+            className='modal-msg-window'
             placeholder="Enter New Message"
             maxLength='100'
             onChange={(event) => {

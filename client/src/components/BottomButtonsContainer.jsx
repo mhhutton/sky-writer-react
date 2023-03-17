@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 
 import MsgModal from './MsgModal.jsx';
 
-function BottomButtonsContainer( {msgContainer, setMsgContainer} ) {
+function BottomButtonsContainer( {msgContainer, setMsgContainer, setAnimateFly} ) {
 
   return (
     <div className="bott-butt-cont">
@@ -12,7 +12,9 @@ function BottomButtonsContainer( {msgContainer, setMsgContainer} ) {
         msgContainer={msgContainer}
         setMsgContainer={setMsgContainer}
       />
-      <Button> Fly Message</Button>
+      <Button
+        onClick={() => setAnimateFly(true)}
+      > Fly Message</Button>
     </div>
   );
 }
